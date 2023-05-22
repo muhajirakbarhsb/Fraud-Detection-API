@@ -34,5 +34,5 @@ scrape_configs:
     # scheme defaults to 'http'.
 
     static_configs:
-      - targets: ["project-app-1:8000"]
+      - targets: ["fraud-detection-api-app-1:8000"]
 
