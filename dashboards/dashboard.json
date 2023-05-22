@@ -300,7 +300,7 @@
             "uid": "PBFA97CFB590B2093"
           },
           "editorMode": "builder",
-          "expr": "probability_fraud{instance=\"project-app-1:8000\"}",
+          "expr": "probability_fraud{instance=\"fraud-detection-api-app-1:8000\"}",
           "legendFormat": "__auto",
           "range": true,
           "refId": "A"
