@@ -2,6 +2,8 @@
 
 This is a fraud detection project API built with FastAPI, Prometheus, and Grafana. It is containerized using Docker for easy deployment and scalability.
 
+![Dashboard example](https://github.com/muhajirakbarhsb/Fraud-Detection-API/blob/main/dashboard.jpg)
+
 ## Features
 - Provides an API for fraud detection
 - Collects metrics using Prometheus
