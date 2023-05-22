@@ -13,6 +13,7 @@ Before running the project, make sure you have the following installed:
 
 - Docker 
 - Docker Compose
+- Python
 
 ## Getting Started
 Follow these steps to get the project up and running:
