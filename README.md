@@ -48,6 +48,26 @@ Prometheus is running at http://localhost:9090. You can use this URL to configur
 
 Grafana is running at http://localhost:3000. Use your web browser to access this URL and configure data sources and dashboards to visualize the collected metrics.
 
+## Making Requests
+
+To interact with the Fraud Detection API, you can use the provided `test.py` file. Follow the steps below to run the script:
+
+1. Make sure you have Python installed on your system.
+
+2. Install the required dependencies:
+
+   ```bash
+   pip install requests
+   ```
+3. Open the test.py file and modify the API endpoint and payload according to your needs.
+
+4. Run the script:
+  ```bash
+  python test.py
+  ```
+The script will make a request to the API and display the response.
+### Note: Ensure that the API server is running before executing the test.py script.
+
 ## Configuration
 The project configuration can be modified through the following files:
 
