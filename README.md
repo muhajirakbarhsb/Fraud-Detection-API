@@ -73,9 +73,9 @@ To configure custom metrics or modify the existing ones, refer to the Prometheus
 ## Acknowledgments
 This project was inspired by the need for fraud detection in various domains. We would like to acknowledge the contributions of the open-source community and the following projects:
 
-FastAPI: https://fastapi.tiangolo.com/
-Prometheus: https://prometheus.io/
-Grafana: https://grafana.com/
+- FastAPI: https://fastapi.tiangolo.com/
+- Prometheus: https://prometheus.io/
+- Grafana: https://grafana.com/
 
 Contact
 For any questions or inquiries, please contact [muhajirakbarhsb@gmaiil.com]
