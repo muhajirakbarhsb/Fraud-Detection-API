@@ -318,8 +318,8 @@
     "list": []
   },
   "time": {
-    "from": "2023-05-19T07:06:02.353Z",
-    "to": "2023-05-19T07:10:53.675Z"
+    "from": "now-1h",
+    "to": "now"
   },
   "timepicker": {},
   "timezone": "",
