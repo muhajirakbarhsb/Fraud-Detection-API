@@ -21,13 +21,13 @@ Follow these steps to get the project up and running:
 ```bash
 git clone https://github.com/muhajirakbarhsb/Fraud-Detection-API.git
 ```
-2. Build the Docker image:
-```bash
-docker-compose build
-```
-3. **Change directory**:
+2. **Change directory**:
 ```bash
 cd Fraud-Detection-API
+```
+3. Build the Docker image:
+```bash
+docker-compose build
 ```
 4. Start the services:
 ```bash
