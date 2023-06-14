@@ -4,6 +4,26 @@ This is a fraud detection project API built with FastAPI, Prometheus, and Grafan
 
 ![Dashboard example](https://github.com/muhajirakbarhsb/Fraud-Detection-API/blob/main/dashboard.jpg)
 
+## Project Structure
+```
+📦 Fraud-Detection-API
+├─ Dockerfile
+├─ README.md
+├─ config
+│  ├─ grafana_dashboards.yaml
+│  ├─ grafana_datasources.yaml
+│  └─ prometheus.yml
+├─ dashboard.jpg
+├─ dashboards
+│  └─ dashboard.json
+├─ docker-compose.yml
+├─ fraud_detection_model-0.0.1.pkl
+├─ main.py
+├─ requirements.txt
+└─ test.py
+```
+
+
 ## Features
 - Provides an API for fraud detection
 - Collects metrics using Prometheus
