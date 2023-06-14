@@ -1,11 +1,5 @@
 version: '1'
 
-
-
-# networks:
-#   front-tier:
-#   back-tier:
-
 services:
   app:
     build:
@@ -18,15 +12,6 @@ services:
     networks:
       - app-network
 
-  # test:
-  #   build:
-  #     context: .
-  #     dockerfile: Dockerfile
-  #   depends_on:
-  #     - app
-  #   command: python test.py
-  #   networks:
-  #     - app-network
 
   prometheus:
     image: prom/prometheus
@@ -40,7 +25,6 @@ services:
       - "9090:9090"
     networks:
           - app-network
-    #   # - back-tier
     restart: always
 
   grafana:
@@ -57,8 +41,6 @@ services:
       - grafana_data:/var/lib/grafana
     networks:
           - app-network
-    #   # - back-tier
-    #   # - front-tier
     restart: always
 
 volumes:
