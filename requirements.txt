@@ -1,0 +1,9 @@
+matplotlib
+numpy
+pandas 
+plotly
+notebook
+scikit-learn
+joblib
+fastapi
+uvicorn
