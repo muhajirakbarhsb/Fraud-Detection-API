@@ -1,7 +1,0 @@
-fastapi
-uvicorn
-requests
-numpy
-pandas
-joblib
-prometheus-client
