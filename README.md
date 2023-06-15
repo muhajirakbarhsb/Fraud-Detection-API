@@ -1,7 +1,7 @@
 # Fraud-Detection-API
 
 ```
-📦 Fraud-Detection-API
+📦 jupyter
 ├─ Dockerfile
 ├─ config
 │  ├─ grafana_dashboards.yaml
